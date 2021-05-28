@@ -1,6 +1,6 @@
 body{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     align-content: center;
     justify-content: center;
@@ -42,7 +42,25 @@ body{
     font-size: 13px;
 }
 
+.card-content h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.card-content p{
+    color: grey;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+
 .card-footer{
     grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: rgb(255, 7, 110);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
