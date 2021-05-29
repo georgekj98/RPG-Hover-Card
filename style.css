@@ -23,6 +23,9 @@ body{
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     margin: 30px;
 
+    transition: 0.5s ease;
+    cursor: pointer;
+
 
 }
 
@@ -78,4 +81,9 @@ body{
 .card-footer .border {
   border-left: 1px solid rgb(172, 26, 87);
   border-right: 1px solid rgb(172, 26, 87);
+}
+
+.card:hover{
+    transform: scale(1.10);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
